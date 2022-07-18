@@ -2,13 +2,16 @@ import logo from './logo.svg';
 import './App.css';
 import { AddIcon, Button, CalendarIcon, CallIcon, Menu } from "@fluentui/react-northstar";
 import { AppsIcon, BellIcon, ChatIcon, EditIcon, MeetingTimeIcon, SaveIcon } from '@fluentui/react-icons-northstar/dist/commonjs';
-import { Icon } from "@fluentui/react";
+import { FontIcon, initializeIcons } from "@fluentui/react";
 
 function App() {
+  initializeIcons();
 
   return (
     <div className="App">
       <header className="App-header">
+        <FontIcon iconName="Calendar" />
+
         <Button>ABCD</Button>
         <Button text="Primary" allowDisabledFocus />
         <Menu
@@ -19,8 +22,7 @@ function App() {
           }
         />
 
-
-        <Icon iconName='CompassNW' />
+        <FontIcon iconName='Contact' />
 
       </header>
     </div>
