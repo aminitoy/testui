@@ -3,12 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { teamsTheme, Provider } from "@fluentui/react-northstar";
+import { SandboxApp } from "@fluentui/code-sandbox"
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  // <Provider theme={teamsTheme}>
+  <SandboxApp>
     <App />
-  </React.StrictMode>
+  </SandboxApp>
+  // </Provider>
 );
 
 // If you want to start measuring performance in your app, pass a function
