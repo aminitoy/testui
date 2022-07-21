@@ -99,6 +99,7 @@ const items = [
 ]
 
 const MenuExampleToolbarShorthand = () => (
+
   <Menu
     vertical
     defaultActiveIndex={0}
