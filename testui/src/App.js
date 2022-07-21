@@ -1,85 +1,7 @@
-// import logo from './logo.svg';
-// import './App.css';
-// import { Button, Menu, menuAsToolbarBehavior } from "@fluentui/react-northstar";
-// import {
-//   CalendarIcon, ContactGroupIcon, UserFriendsIcon,
-//   SettingsIcon, PaperclipIcon, EyeIcon, ShiftActivityIcon, RobotIcon,
-// } from "@fluentui/react-icons-northstar";
-
-// const iconStyles = {
-//   color: '#482B7C',
-//   selected: {
-//     color: '#0078D4',
-//   },
-// }
-
-// const items = [
-//   {
-//     key: '0',
-//     content: 'Planning',
-//     icon: <CalendarIcon outline styles={iconStyles}/>,
-//     link: '#',
-//   },
-//   {
-//     key: 'overview',
-//     content: 'Overview',
-//     icon: <EyeIcon outline styles={iconStyles} />,
-//   },
-//   {
-//     key: 'times',
-//     content: 'Times',
-//     icon: <ShiftActivityIcon outline styles={iconStyles} />,
-//   },
-//   {
-//     content: 'Users',
-//     icon: <ContactGroupIcon outline styles={iconStyles} />,
-//   },
-//   {
-//     key: 'clients',
-//     content: 'Clients',
-//     icon: <UserFriendsIcon outline styles={iconStyles} />,
-//   },
-//   {
-//     key: 'services',
-//     content: 'Services',
-//     icon: <RobotIcon outline styles={iconStyles} />,
-//   },
-//   {
-//     key: 'invoices',
-//     content: 'invoices',
-//     icon: <PaperclipIcon outline styles={iconStyles} />,
-//   }
-// ]
-
-// function App() {
-
-//   return (
-//     <div className="App">
-//       <Menu defaultActiveIndex={0} items={items} pills vertical
-//         accessibility={menuAsToolbarBehavior}
-//       />
-//     </div>
-//   );
-// }
-
-// export default App;
-
-
 import React from 'react'
 import { Menu, menuAsToolbarBehavior } from '@fluentui/react-northstar'
 import {
-  FormatIcon,
   PaperclipIcon,
-  EmojiIcon,
-  GiphyIcon,
-  StickerIcon,
-  VideoCameraEmphasisIcon,
-  SettingsIcon,
-  MoreIcon,
-  BookmarkIcon,
-  TranslationIcon,
-  TrashCanIcon,
-  MarkAsUnreadIcon,
   UserFriendsIcon,
   CalendarIcon,
   EyeIcon,
@@ -171,8 +93,8 @@ const items = [
     ),
     key: 'invoices',
     content: 'Invoices',
-    
-    
+
+
   },
 ]
 
@@ -184,7 +106,7 @@ const MenuExampleToolbarShorthand = () => (
     iconOnly
     accessibility={menuAsToolbarBehavior}
     pills
-    
+
   />
 )
 
