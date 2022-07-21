@@ -104,7 +104,7 @@ const MenuExampleToolbarShorthand = () => (
     vertical
     defaultActiveIndex={0}
     items={items}
-    iconOnly
+ 
     accessibility={menuAsToolbarBehavior}
     pills
 
